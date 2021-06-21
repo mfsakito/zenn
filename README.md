@@ -11,3 +11,6 @@ https://zenn.dev/akitokoga
 
 preview:
 `npx zenn preview` 
+
+update:
+`npm install zenn-cli@latest`
