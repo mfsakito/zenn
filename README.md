@@ -4,7 +4,13 @@ https://zenn.dev/akitokoga
 
 ### memo
 
-add new article
+[add new article](https://zenn.dev/zenn/articles/zenn-cli-guide)
 `npx zenn new:article` 
 
-https://zenn.dev/zenn/articles/zenn-cli-guide
+
+
+preview:
+`npx zenn preview` 
+
+update:
+`npm install zenn-cli@latest`
