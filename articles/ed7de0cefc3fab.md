@@ -11,6 +11,18 @@ published: true
 いろいろ見てたら、androidならどんなアプリでも取得しているfirebaseログが閲覧できることがわかり、研究してみたことを書いておこうと思います。
 ログの閲覧方法は後半に書いているので、自分でも見たい方はそっちをどうぞ。
 
+## firebaseのログとはなにか
+
+任意の画面、タイミングでコードに1行追加するだけでfirebaseやBigQueryで分析可能なログを残せます。
+
+例えば以下はとある開発環境で取得されたログです。`screen_view` というイベントはfirebaseが自動で取得しているログで、画面が表示されたときに落ちています。
+
+![イベントログの例](https://storage.googleapis.com/zenn-user-upload/406e05923f11638356cbff6e.png)
+
+ここからは確認できないですが、パラメータに`MainActivity`などのクラス名が入っているので、特定の画面について何人が何回表示しているか、などの分析ができます。
+
+詳しくは[Google アナリティクスを使ってみる](https://firebase.google.com/docs/analytics/get-started?platform=ios&hl=ja)を読んでみてください。
+
 ## いろんなアプリを見てわかったこと
 
 - 全体的に細かなログをとっているアプリは多くない。
